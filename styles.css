@@ -1,0 +1,77 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body { 
+background: url("https://source.unsplash.com/1600x900/?landscape");
+background-size: cover;
+align-items: center;
+display: flex;
+justify-content: center;
+min-height: 100vh;
+
+
+}
+
+.container {
+    border-radius: 30px;
+    padding: 25px;
+    background-color:rgba(141, 197, 219, 0);
+    border: 1px solid silver;
+    backdrop-filter: blur(1px);
+    border-radius: 15ps;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.buttons {
+    margin-bottom: 35px;
+    margin-top: 35px;
+    display: flex;
+    gap: 10px;
+}
+
+
+button {
+
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    transition: opacity 0.5s ease-in-out;
+}
+button:hover{
+    opacity: 0.7;
+}
+
+#rock {
+    background-color:  rgb(60, 184, 48);
+
+}
+
+#paper {
+    background-color: rgb(17, 78, 131);
+}
+
+#scissors {
+    background-color: rgb(60, 184, 48);
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.reload {
+    background: none;
+    font-size: 7px;
+    font-weight: 800;
+    color: rgb(245, 14, 14);
+}
