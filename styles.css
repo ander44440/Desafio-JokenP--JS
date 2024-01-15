@@ -19,7 +19,7 @@ min-height: 100vh;
 
 .container {
     border-radius: 30px;
-    padding: 25px;
+    padding: 150px;
     background-color:rgba(141, 197, 219, 0);
     border: 1px solid silver;
     backdrop-filter: blur(1px);
@@ -41,8 +41,8 @@ min-height: 100vh;
 
 button {
 
-    padding: 15px;
-    font-size: 20px;
+    padding: 30px;
+    font-size: 40px;
     cursor: pointer;
     border-radius: 12px;
     border: none;
@@ -64,14 +64,17 @@ button:hover{
 #scissors {
     background-color: rgb(60, 184, 48);
 }
-
+h1 {
+    font-size: 70px;
+}
 p {
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 .reload {
     background: none;
-    font-size: 7px;
+    font-size: 30px;
     font-weight: 800;
     color: rgb(245, 14, 14);
 }
