@@ -18,7 +18,7 @@ min-height: 100vh;
 }
 
 .container {
-    border-radius: 30px;
+    border-radius: 10000px;
     padding: 150px;
     background-color:rgba(141, 197, 219, 0);
     border: 1px solid silver;
